@@ -25,6 +25,7 @@ How it works: Basically, each player is assigned to their own index. Index 0 is 
     At the end, the lottery is done once all winners claim their prize.
 
 ***********************************************************************************************************************************************
+OWNER LIMIT: 1
 PLAYER LIMIT: 4
 Recommendations before running:
 	- Use Ubuntu Windows Subsystem, or linuxOS
