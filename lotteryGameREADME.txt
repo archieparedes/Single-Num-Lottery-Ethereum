@@ -25,7 +25,7 @@ How it works: Basically, each player is assigned to their own index. Index 0 is 
     At the end, the lottery is done once all winners claim their prize.
 
 ***********************************************************************************************************************************************
-
+PLAYER LIMIT: 4
 Recommendations before running:
 	- Use Ubuntu Windows Subsystem, or linuxOS
 	- Use Google Chrome
@@ -33,7 +33,7 @@ Recommendations before running:
 
 
 How to run :
-	1.) have one command line run testrpc: type 'testrpc --port 9545 --accounts 5 --seed foobar'
+	1.) have one terminal run testrpc: type 'testrpc --port 9545 --accounts 5 --seed foobar'
 	2.) Upload lotterGame.sol to remix.ethereum.org
 	3.) Click on the Run tab
 		a.) Set environment to Web3 Provider
@@ -44,12 +44,12 @@ How to run :
 
 Afterwards:
 	As an Owner/Host steps:
-		1.) On a seperate command line, direct to the main lottery folder
+		1.) On a seperate terminal, direct to the main lottery folder
 		2.) type: python3 lotteryOwner.py
 		3.) Choose a valid option
 
 	As a Player steps:
-		1.) On a seperate command line, direct to the main lottery folder
+		1.) On a seperate terminal, direct to the main lottery folder
 		2.) type: python3 lotteryPlayer.py
 		3.) Choose a valid option
 
